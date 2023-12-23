@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Comforter&family=Oi&family=Rubik+Bubbles&family=Rubik+Distressed&display=swap');
+body{
+	background-color: lightgreen;
+}
+p{
+	font-size: 40px;
+}
+.p1{
+	color: pink;
+	background: linear-gradient(purple,violet);
+	text-align: center;
+	font-style: italic;
+}
+.p2{
+	font-family: cursive;
+	color: orange;
+	font-weight: 700;
+}
+.p3{
+	font-family: "Alumni Sans Collegiate One";
+}
+.p4{
+	font-family: Comforter;
+}
+.p5{
+font-family: Oi;	
+}
+.p6{
+	font-family: "Rubik Bubbles";
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.p7{
+	font-family: "Rubik Distressed";
+}
+.p8{
+	text-decoration: underline;
+	text-decoration-color: red;
+	text-decoration-style: wavy;
+	text-underline-position: under;
+}
+.p9{
+	color: fuchsia;
+	text-decoration: underline;
+	text-decoration-color: green;
+	text-decoration-style: dashed;
+	text-underline-position: under;
+}
+.p10{
+	text-shadow: 0 0 10px yellow;
+}
+.p11{
+	color: pink;
+	text-shadow: 2px -2px red, 3px -3px plum;
+}
+.s1{
+	font-size: 2em;
+	font-family: "Rubik Bubbles";
+	text-shadow: 5px -5px yellow;
+	color: blue;
+
+}

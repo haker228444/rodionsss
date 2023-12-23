@@ -1,0 +1,32 @@
+body{
+	background-color: lightsalmon;
+}
+p{
+	font-size: 50px;
+	text-align: center;
+	color: red;
+	background-color: pink;
+}
+ul, ol, dl{
+	font-size: 30px;
+	color: darkmagenta;
+}
+.l1 li{
+	padding-left: 20px;
+}
+.l1 li::marker{
+	color: green;
+}
+ol{
+	margin-left: 75px;
+}
+@counter-style circled-digits {
+  system: cyclic;
+  symbols: 😀 👻 👽 👾 🤖 🎃 😹 👋 👀 🦉;
+  suffix: " ";
+}
+
+ul.l2 {
+  list-style: circled-digits;
+  margin-left: 40px;
+}

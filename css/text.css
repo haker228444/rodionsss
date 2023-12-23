@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap');
+h1{
+	font-weight: 400;
+	font-family: 'Ruslan Display', sans-serif;
+text-align: center;
+letter-spacing: 5px;
+}
+p{
+	text-align: justify;
+	text-indent: 24px;
+	line-height: 24px;
+}
+h2{
+	text-align: right;
+	text-transform: uppercase;
+}
+h3{
+	font-style: italic;
+	font-weight: 700;
+}
+.img1{
+	float: right;
+	margin-left: 20px;
+}
+.f1{
+	float: right ;
+	width: 360px;
+	border: solid 1px lightgray;
+	padding: 10px;
+}
+.a1{
+	color: blue;
+	text-decoration: none;
+}
+.a1:visited{
+	color: indigo;
+
+}
+.a1:hover{
+	text-decoration: underline;
+}
+.a1:active{
+	background-color: yellow;
+	border: dotted 2px blue;
+}

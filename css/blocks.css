@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&family=Ruslan+Display&display=swap');
+body{
+	background-color: lightcoral;
+}
+p{
+	font-size: 0.5in;
+	color: red;
+	background-color: lightcyan;
+	text-align: center;
+	display: inline;
+}
+.b1{
+	font-size: 48px;
+	padding-left: 10px;
+	padding-right: 10px;
+font-family: 'Kenia', sans-serif;
+color: green;
+background-color: yellow;
+
+}
+.s1{
+	color: indigo;
+	border: dashed 5px pink;
+	display: inline;
+}
+.b1:hover{
+	color: yellow;
+background-color: green;
+border: dotted 5px yellow;
+border-radius: 10% 25%;
+font-weight: 700;
+text-transform: uppercase;
+box-shadow: 5px -5px yellow;
+text-shadow: 0 0 5px orange;
+}
+
+/* CSS */
+.button-85 {
+  padding: 0.2em 0.7em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 0);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-size: 48px;
+  text-shadow: 0 0 5px orange;
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+.myButton {
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	background-color:#f9f9f9;
+	border-radius:12px;
+	border:4px solid #dcdcdc;
+	display:flex;
+	cursor:pointer;
+	color:#666666;
+	font-family:Times New Roman;
+	font-size:24px;
+	font-weight:bold;
+	padding:12px 24px;
+	text-decoration:none;
+	text-shadow:0px 0px 10px #ffffff;
+	width:100px;
+	margin: 20px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	background-color:#e9e9e9;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.d1{
+	width: 20%;
+}
+#first{
+	width: 500px;
+	height: 500px;
+	background-color: indigo;
+	font-size: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-style: dashed dotted;
+	border-width: 10px;
+	border-color: red orange green yellow;
+	color: pink;
+}
+#second{
+	width: 600px;
+	height: 600px;
+	border: 30px solid;
+	border-image: linear-gradient(yellow,blue) 30;
+	text-align: center;
+	font-size: 40px;
+	margin: 50px;
+}
+#third,#fourth{
+	width: 750px;
+	height: 150px;
+	background-color: violet;
+	margin: 50px;
+	padding: 20px;
+}
+#third{
+	border: dashed 20px red;
+}
+#fourth{
+	border-style: dashed dotted;
+	border-width: 10px;
+	border-color: red orange green yellow;
+}

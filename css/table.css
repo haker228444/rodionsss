@@ -1,0 +1,51 @@
+body{
+	background-color: mintcream;
+}
+p{
+	font-size: 50px;
+	text-align: center;
+	color: lime;
+	background-color: yellow;
+}
+table{
+	/*border: double 2px orange;*/
+	width: 50%;
+	font-size: 24px;
+	border-collapse: separate;
+	margin: auto;
+}
+th,td{
+	border: solid 1px purple;
+	width: 25%;
+	height: 1cm;
+	border-radius: 15%;
+}
+tr:hover{
+	background-color: lightgrey;
+}
+td:hover{
+	background-image: url(https://media.tenor.com/KdtU9q5XTkEAAAAC/rainbow.gif);
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	font-size: 1.3em;
+}
+tr:nth-child(even){
+	background-color: lightpink;
+}
+tr:nth-child(odd){
+	background-color: lightcyan;
+}
+.t1{
+	border: dashed 3px red;
+	text-align: right;
+	vertical-align: bottom;
+}
+caption{
+	text-transform: uppercase;
+	color: white;
+	text-shadow: 0 0 10px lightpink;
+	font-size: 50px;
+	background: linear-gradient(to left,red, orange, yellow,green,blue, indigo, violet);
+}

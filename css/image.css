@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+body{
+	background-color: violet;
+	background-image: url(https://www.icegif.com/wp-content/uploads/2022/01/icegif-1479.gif);
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+	background-attachment: fixed;
+	background-size: 200px;
+}
+p{
+	font-size: 0.8in;
+	background-image: url(https://pub-static.fotor.com/assets/bg/835e8b4a-6aad-48b9-a105-cff386b3afc3.jpg);
+	background-size: cover;
+	color: orange;
+	font-family: "Rubik Puddles", cursive;
+	text-align: center;
+	text-shadow: 3px -3px 5px orange, 4px -4px 6px red;
+}
+.im1{
+	width: 40%;
+	margin: auto;
+	display: block;
+	border-radius: 50%;
+	box-shadow: 0px 0px 50px goldenrod;
+}
+.im2{
+	width: 500px;
+	border: ridge 30px orange;
+}
+.d1{
+	width: 500px;
+	height: 500px;
+	background-image: url(https://i.pinimg.com/564x/5a/4b/f6/5a4bf6fe14b719c94acf34158db11ff3.jpg);
+	background-size: cover;
+	border: groove 20px orange;
+	margin: 50px;
+}
